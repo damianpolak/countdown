@@ -1,0 +1,13 @@
+﻿<Window x:Class="CountDown_Timer.windowFullScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CountDown_Timer"
+        mc:Ignorable="d"
+        Title="windowFullScreen" Height="201.099" Width="498.901" Closing="Window_Closing_1" WindowStyle="None" AllowsTransparency="False" Background="Transparent" MinWidth="100" MinHeight="100" ShowInTaskbar="False" ResizeMode="NoResize" Topmost="True" StateChanged="Window_StateChanged_1" SizeChanged="Window_SizeChanged" LocationChanged="Window_LocationChanged_1">
+    <DockPanel LastChildFill="True">
+
+        <Label x:Name="lbMain" Content="00:00:00" Margin="0" Background="Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="120" SizeChanged="lbMain_SizeChanged" Foreground="#FF14FF1F" FontFamily="Arial" MouseDoubleClick="lbMain_MouseDoubleClick" MouseLeftButtonDown="lbMain_MouseLeftButtonDown" Cursor="None"/>
+    </DockPanel>
+</Window>

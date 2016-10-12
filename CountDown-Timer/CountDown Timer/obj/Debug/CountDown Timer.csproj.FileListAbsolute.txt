@@ -1,0 +1,14 @@
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\MainWindow.g.cs
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\App.g.cs
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer_MarkupCompile.cache
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer_MarkupCompile.lref
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\windowFullScreen.g.cs
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\bin\Debug\CountDown Timer.exe
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\bin\Debug\CountDown Timer.pdb
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\MainWindow.baml
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\windowFullScreen.baml
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer.g.resources
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown_Timer.Properties.Resources.resources
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer.csproj.GenerateResource.Cache
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer.exe
+c:\users\dpolak\documents\visual studio 2015\Projects\CountDown Timer\CountDown Timer\obj\Debug\CountDown Timer.pdb
