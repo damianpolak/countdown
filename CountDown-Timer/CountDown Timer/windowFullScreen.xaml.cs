@@ -16,7 +16,7 @@ namespace CountDown_Timer
     /// <summary>
     /// Interaction logic for windowFullScreen.xaml
     /// </summary>
-    public partial class windowFullScreen : Window
+    public partial class windowFullScreen
     {
 
         private bool bDragMoveIsEnable;

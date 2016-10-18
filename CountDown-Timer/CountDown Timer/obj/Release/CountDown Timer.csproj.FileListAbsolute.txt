@@ -30,3 +30,45 @@ C:\Users\dpolak\Documents\Visual Studio 2015\Projects\CountDown-Timer\CountDown 
 C:\Users\dpolak\Documents\Visual Studio 2015\Projects\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.g.resources
 C:\Users\dpolak\Documents\Visual Studio 2015\Projects\CountDown-Timer\CountDown Timer\obj\Release\CountDown_Timer.Properties.Resources.resources
 C:\Users\dpolak\Documents\Visual Studio 2015\Projects\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.csproj.GenerateResource.Cache
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.exe
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.pdb
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.exe.config
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.exe
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.pdb
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.dll
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\System.Windows.Interactivity.dll
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.pdb
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.xml
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\MainWindow.g.cs
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\windowFullScreen.g.cs
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\App.g.cs
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_Content.g.cs
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_MarkupCompile.cache
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_MarkupCompile.lref
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\App.baml
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\MainWindow.baml
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\windowFullScreen.baml
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.g.resources
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown_Timer.Properties.Resources.resources
+C:\Users\dpolak\Desktop\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.csproj.GenerateResource.Cache
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.exe.config
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.exe
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.pdb
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.exe
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\CountDown Timer.pdb
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.dll
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\System.Windows.Interactivity.dll
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.pdb
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\bin\Release\MahApps.Metro.xml
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\MainWindow.g.cs
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\windowFullScreen.g.cs
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\App.g.cs
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_Content.g.cs
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_MarkupCompile.cache
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer_MarkupCompile.lref
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\App.baml
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\MainWindow.baml
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\windowFullScreen.baml
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.g.resources
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown_Timer.Properties.Resources.resources
+C:\Users\dpolak\Documents\GitHub\CountDown-Timer\CountDown-Timer\CountDown Timer\obj\Release\CountDown Timer.csproj.GenerateResource.Cache

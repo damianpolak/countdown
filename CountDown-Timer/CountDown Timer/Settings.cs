@@ -26,5 +26,7 @@ namespace CountDown_Timer
         public bool Sound;
         public int BeepSeconds;
 
+        public bool Transparent;
+
     }
 }

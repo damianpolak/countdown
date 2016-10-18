@@ -18,6 +18,7 @@ using System.Windows.Shapes;
 using System.Windows.Threading;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using MahApps.Metro.Controls;
 
 using Rect = System.Drawing.Rectangle;
 using Screen = System.Windows.Forms.Screen;
@@ -27,7 +28,7 @@ namespace CountDown_Timer
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
 
         private windowFullScreen wfs;
@@ -46,6 +47,7 @@ namespace CountDown_Timer
         private bool bMin = true;
         private bool bBlinking = true;
         private bool bClockMode = false;
+        private bool bTransparentMode = false;
 
         private double toptemp, lefttemp;
 
@@ -54,6 +56,8 @@ namespace CountDown_Timer
         private SolidColorBrush timeColor;
 
         private int Hour = 0, Minute = 15, Second = 0;
+        private int clockHour, clockMinute, clockSecond;
+
         private int BeepSeconds = 5;
 
         public MainWindow()
@@ -63,7 +67,9 @@ namespace CountDown_Timer
             mainSettings = new Settings();
             logs = new Logs();
 
+            
             wfs = new windowFullScreen();
+            
 
             sound = new System.Media.SoundPlayer("beep.wav");
             timeColor = new SolidColorBrush(System.Windows.Media.Color.FromRgb(20, 255, 31));
@@ -90,6 +96,8 @@ namespace CountDown_Timer
             dtClock.Interval = new TimeSpan(0, 0, 0, 0, 100);
             dtClock.IsEnabled = true;
             dtClock.Tick += DtClock_Tick;
+            dtClock.Stop();
+
             for (int i = 0; i <= 23; i++)
             {
                 cbHour.Items.Add(new ComboBoxItem
@@ -127,8 +135,6 @@ namespace CountDown_Timer
             cbSecondsBefore.SelectedIndex = BeepSeconds;
 
             btStartStop.Background = Brushes.LightGreen;
-            //btMinMax.Background = Brushes.LightGreen;
-            //btShowHide.Background = Brushes.LightGreen;
 
             UpdateTimeValue();
 
@@ -150,7 +156,16 @@ namespace CountDown_Timer
 
         private void DtClock_Tick(object sender, EventArgs e)
         {
-            // ...
+            clockHour = DateTime.Now.Hour;
+            clockMinute = DateTime.Now.Minute;
+            clockSecond = DateTime.Now.Second;
+
+            lbViewTime.Content = clockHour.ToString("D2") + ":" +
+                                clockMinute.ToString("D2") + ":" +
+                                clockSecond.ToString("D2");
+
+            wfs.lbMain.Content = lbViewTime.Content;
+            this.Title = "CountDown Timer Console " + wfs.lbMain.Content.ToString();
         }
 
         private void ClockMode()
@@ -255,6 +270,20 @@ namespace CountDown_Timer
                     this.cbSecondsBefore.IsEnabled = false;
                 }
 
+                /*
+                if(mainSettings.Transparent == true)
+                {
+                    cbTransparentMode.IsChecked = true;
+                    wfs.AllowsTransparency = true;
+                    wfs.Background = Brushes.Transparent;
+                } else
+                {
+                    cbTransparentMode.IsChecked = false;
+                    wfs.AllowsTransparency = false;
+                    wfs.Background = Brushes.Black;
+
+                }*/
+
                 BeepSeconds = mainSettings.BeepSeconds;
                 cbSecondsBefore.SelectedIndex = BeepSeconds;
 
@@ -348,9 +377,12 @@ namespace CountDown_Timer
                     {
                         dtBlinking.Start();
                     }
+
+                    cbClockMode.IsEnabled = false;
                 }
                 else // W przypadku gdy licznik osiągnie zero
                 {
+                    cbClockMode.IsEnabled = true;
                     StartStopChangeState();
                     dtBlinking.Stop();
 
@@ -393,6 +425,7 @@ namespace CountDown_Timer
                 dtBlinking.Stop();
                 dtBlinking.IsEnabled = false;
                 wfs.lbMain.Foreground = timeColor;
+                cbClockMode.IsEnabled = true;
             }
             else
             {
@@ -401,9 +434,41 @@ namespace CountDown_Timer
                 btStartStop.Content = "STOP";
 
                 dtCountDown.Start();
+                cbClockMode.IsEnabled = false;
             }
         }
 
+        private void ClockModeChangeState()
+        {
+            if (bClockMode == true)
+            {
+                btSet.IsEnabled = false;
+                btStartStop.IsEnabled = false;
+                cbSecond.IsEnabled = false;
+                cbMinute.IsEnabled = false;
+                cbHour.IsEnabled = false;
+                cbSecond.IsEnabled = false;
+                cbSecondsBefore.IsEnabled = false;
+                cbSound.IsEnabled = false;
+
+                dtClock.Start();
+
+            }
+            else
+            {
+                btSet.IsEnabled = true;
+                btStartStop.IsEnabled = true;
+                cbSecond.IsEnabled = true;
+                cbMinute.IsEnabled = true;
+                cbHour.IsEnabled = true;
+                cbSecond.IsEnabled = true;
+                cbSecondsBefore.IsEnabled = true;
+                cbSound.IsEnabled = false;
+
+                dtClock.Stop();
+                UpdateTimeValue();
+            }
+        }
         private void ShowHideChangeState()
         {
             if (bHide == false)
@@ -525,7 +590,7 @@ namespace CountDown_Timer
             }
 
             mainSettings.BeepSeconds = cbSecondsBefore.SelectedIndex;
-
+            mainSettings.Transparent = bTransparentMode;
 
             SaveSettingsToFile(settingsFilePath);
          // Wymuszenie zamknięcia użyte z powodu okna "fullScreenWindow"
@@ -541,9 +606,38 @@ namespace CountDown_Timer
 
         }
 
+        private void cbTransparentMode_Click(object sender, RoutedEventArgs e)
+        {
+            if (cbTransparentMode.IsChecked == true)
+            {
+                bTransparentMode = true;
+                //wfs.lbMain.Background = Brushes.Transparent;
+            }
+            else
+            {
+                bTransparentMode = false;
+                //wfs.lbMain.Background = Brushes.Black;
+            }
+        }
+
         private void cbSecondsBefore_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BeepSeconds = cbSecondsBefore.SelectedIndex;
+        }
+
+        private void cbClockMode_Click(object sender, RoutedEventArgs e)
+        {
+            if (cbClockMode.IsChecked == true)
+            {
+                bClockMode = true;
+                ClockModeChangeState();
+                
+            }
+            else
+            {
+                bClockMode = false;
+                ClockModeChangeState();
+            }
         }
 
         private void cobDesktops_PreviewMouseDown(object sender, MouseButtonEventArgs e)

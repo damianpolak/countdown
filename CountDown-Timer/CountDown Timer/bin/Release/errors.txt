@@ -44,3 +44,39 @@ MSG 05-10-16 (17:01:10) : [Sound file not found!]
 
 MSG 05-10-16 (17:01:11) : [Sound file not found!]
 
+MSG 18-10-16 (21:58:21) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (21:58:39) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (21:58:59) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:15:19) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:15:26) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:15:50) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:16:19) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:16:26) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:17:58) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:18:04) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:20:28) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:20:34) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:21:06) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:21:15) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:22:33) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:25:00) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:26:00) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
+MSG 18-10-16 (22:27:37) : [Po wyświetleniu elementu typu Window lub wywołaniu metody WindowInteropHelper.EnsureHandle nie można zmienić wartości AllowsTransparency.]
+
